@@ -1,2 +1,14 @@
+This repository contains a set of kidwords
+and associated representations (phon, orth)
+for connectionist modeling. Note that these
+representations are possibly different.
 
-Patterns for a simple feedforward print-speech network using common words from children's texts.
+For the patterns that can be used for modeling,
+see orth.csv and phon.csv.
+
+To see the scripts that generate those patterns
+see code_to_orth.R and code_to_phon.R.
+
+For the identity of the words themselves, see
+kidwords.csv, orth-code-kid.csv, or
+phon-code-kid.csv.
