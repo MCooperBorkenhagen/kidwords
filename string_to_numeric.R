@@ -26,13 +26,9 @@ orth_binary <- matrix(
 )
 
 # Export orthographic input matrix
-write.table(
+write.csv(
   orth_binary,
-  file = "orth.csv",
-  sep = ",",
-  row.names = FALSE,
-  col.names = FALSE
-)
+  file = "orth.csv")
 
 
 # Phonology
@@ -67,12 +63,6 @@ phon_binary <- matrix(
 )
 
 # Export phonological output matrix
-write.table(
-  phon_binary,
-  file = "phon.csv",
-  sep = ",",
-  row.names = FALSE,
-  col.names = FALSE
-)
-
+write.csv(phon_binary,
+          file = "phon.csv")
 
